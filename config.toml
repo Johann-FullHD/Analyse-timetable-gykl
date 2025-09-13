@@ -1,0 +1,48 @@
+# Diese Datei enthält allgemeine Konfigurationseinstellungen für die Anwendung
+# Bitte beachten Sie, dass sensible Daten (Passwörter, API-Keys, etc.) in einer
+# separaten .env-Datei gespeichert werden sollten, die nicht ins Repository aufgenommen wird.
+
+[app]
+# Allgemeine Anwendungseinstellungen
+name = "Kursplan-Analyse"
+version = "2.0.0"
+debug = false
+enable_telemetry = false
+cache_ttl = 3600  # Cache-Lebensdauer in Sekunden
+theme_color = "#2563EB"
+
+[data]
+# Datenverarbeitungseinstellungen
+max_upload_size_mb = 10
+allowed_formats = ["csv", "json", "xlsx"]
+default_db_path = "data/app.db"
+enable_autosave = true
+data_retention_days = 30  # Wie lange Daten gespeichert werden
+
+[performance]
+# Leistungsoptimierungen
+use_caching = true
+parallel_processing = true
+max_workers = 4  # Maximale Anzahl paralleler Worker
+use_gpu = false  # GPU-Beschleunigung, falls verfügbar
+
+[ui]
+# Benutzeroberflächen-Einstellungen
+default_theme = "modern"  # "modern", "classic", "dark"
+enable_animations = true
+sidebar_initial_state = "expanded"  # "expanded" oder "collapsed"
+default_chart_height = 600
+default_table_height = 400
+
+[logging]
+# Logging-Konfiguration
+level = "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+log_to_file = true
+max_log_size_mb = 10
+backup_count = 5  # Anzahl der Backup-Logdateien
+
+[security]
+# Sicherheitseinstellungen
+enable_authentication = false
+session_expiry_minutes = 60
+cors_origins = ["localhost", "127.0.0.1"]
