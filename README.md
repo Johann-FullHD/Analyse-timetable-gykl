@@ -14,7 +14,7 @@ Eine leistungsstarke Anwendung zur Analyse, Visualisierung und Optimierung von K
 
 ```bash
 # Repository klonen
-git clone https://github.com/[ihr-username]/kursplan-analyse.git
+git clone https://github.com/johann-fullhd/kursplan-analyse.git
 cd kursplan-analyse
 
 # Abhängigkeiten installieren
