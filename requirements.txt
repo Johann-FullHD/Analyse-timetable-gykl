@@ -27,7 +27,7 @@ streamlit-lottie
 streamlit-option-menu
 streamlit-toggle
 streamlit-analytics
-st-aggrid
+streamlit-aggrid
 stqdm
 
 # Leistung und Optimierung
