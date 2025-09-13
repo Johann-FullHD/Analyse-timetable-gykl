@@ -2,23 +2,23 @@
 # Diese Pakete sind essentiell für die Grundfunktionalität der Anwendung
 
 # Hauptbibliotheken
-streamlit>=1.30.0
-pandas>=2.0.0
-numpy>=1.24.0
+streamlit
+pandas
+numpy
 
 # Grundlegende Visualisierung
-matplotlib>=3.7.0
+matplotlib
 
 # Datenbankzugriff (Grundlage)
-sqlalchemy>=2.0.0
+sqlalchemy
 
 # Minimale Streamlit-Erweiterungen
-streamlit-extras>=0.3.0
-streamlit-option-menu>=0.3.2
+streamlit-extras
+streamlit-option-menu
 
 # Leistung und Optimierung
-cachetools>=5.3.0
+cachetools
 
 # Dateiformate und I/O
-xlsxwriter>=3.0.0
-openpyxl>=3.1.0
+xlsxwriter
+openpyxl
