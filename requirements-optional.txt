@@ -30,7 +30,7 @@ streamlit-authenticator
 streamlit-lottie
 streamlit-toggle
 streamlit-analytics
-st-aggrid
+streamlit-aggrid
 stqdm
 
 # Entwicklungswerkzeuge
