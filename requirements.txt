@@ -12,7 +12,9 @@ kaleido
 
 # Datenanalyse
 scikit-learn
+google-cloud-firestore
 joblib
+protobuf
 
 # Datenbank
 pymongo
