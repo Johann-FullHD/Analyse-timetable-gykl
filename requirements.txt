@@ -9,6 +9,7 @@ matplotlib
 seaborn
 networkx
 kaleido
+qrcode
 
 # Datenanalyse
 scikit-learn
