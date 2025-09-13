@@ -1,38 +1,38 @@
 # Optionale Pakete für erweiterte Funktionen
 
 # UI-Verbesserungen
-rich>=10.0.0
-colorama>=0.4.4
+rich
+colorama
 
 # Leistungsverbesserungen
-psutil>=5.9.0
-concurrent-log-handler>=0.9.20
+psutil
+concurrent-log-handler
 
 # Erweiterte Datenanalyse
-scikit-learn>=1.0.0
-plotly>=5.5.0
-seaborn>=0.12.0
-networkx>=3.0
-py3Dmol>=2.0.0
-joblib>=1.3.0
+scikit-learn
+plotly
+seaborn
+networkx
+py3Dmol
+joblib
 
 # Datenbank (erweitert)
-pymongo>=4.5.0
+pymongo
 
 # Bild- und Dateiversarbeitung
-pillow>=9.0.0
-htbuilder>=0.5.0
+pillow
+htbuilder
 
 # Zusätzliche Streamlit-Erweiterungen
-extra-streamlit-components>=0.1.5
-streamlit-ace>=0.1.1
-streamlit-authenticator>=0.2.1
-streamlit-lottie>=0.0.5
-streamlit-toggle>=0.1.3
-streamlit-analytics>=0.4.2
-st-aggrid>=0.3.4
-stqdm>=0.0.5
+extra-streamlit-components
+streamlit-ace
+streamlit-authenticator
+streamlit-lottie
+streamlit-toggle
+streamlit-analytics
+st-aggrid
+stqdm
 
 # Entwicklungswerkzeuge
-pytest>=7.0.0
-black>=23.0.0
+pytest
+black
